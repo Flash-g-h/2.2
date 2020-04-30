@@ -1,15 +1,16 @@
-# Project ALF
-Инопланетное существо
+# Вы можете встроить NeuroStartUp в ваши приложения с помощью следующих сниппетов (кусочков) кода.
 
-## Начало работы
+JavaScript:
 
-Ест кошек, предположительно
+``` <script src="https://localhost/neuro.sdk.min.js"></script>
+Java (Maven):
 
-### Prerequisites
-Установить Git
+<dependency>
+  <groupId>neuro</groupId>
+  <artifactId>sdk</artifactId>
+  <version>1.0.0</version>
+</dependency>
+iOS (добавьте код в ваш Podfile):
 
-#### Установка и запуск
-Приманить инопланетное существо путем демострации кошек по ТВ и передачи сигнала в космос
-
-## Лицензия
-Свободная
+platform :ios, '8.0'
+pod "neuro-ios-sdk" ```
